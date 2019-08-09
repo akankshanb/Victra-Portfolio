@@ -1,0 +1,104 @@
+body {
+    background-image: url("imagesaka/V_BLK.png");
+    /* color:rgb(167, 80, 10); */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-size:cover;
+    overflow: hidden;
+    /* z-index: -50; */
+    /* opacity: 0.5; */
+    /* height: 100%; */
+    /* position: absolute; */
+  }
+  .bg-image{
+    opacity: 0.5;
+  }
+  h2 {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #da2811;
+    font-size: 26pt;
+  }
+  p{
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #0f0000;
+    font-size: 16pt;
+    margin-top: 10px;
+    background-color: rgba(252, 246, 225, 0.5);
+    font-weight: bold;
+    
+  }
+  h3 {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #da2811;
+    font-size: 26pt;
+  }
+  a {
+    margin: 10px;
+    color: #e21c15;
+    font-size:12pt;
+    text-decoration:none;
+  }
+  .container {
+    padding-left: 200px;
+    margin-right: 0px;
+
+    margin-top: 10px;
+    width: 100%;
+    }
+  .wrapper{
+    width:100%;
+    padding-top: 0px;
+    text-align:center;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:0px;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
+  .slick-prev:before{
+    color: #da2811 !important;
+  }
+  .slick-next:before{
+    color: black !important;
+  }
+  #page{
+    padding-left: 0px !important;
+  }
+  .image{
+    border: 2px solid black
+  }
+  #carouselWrapper {
+    padding-left: 100px !important;
+  }
+  @media screen and (max-width: 680px) {
+    .container {
+      padding-left: 15px;
+    }
+    .image{
+      height: 250px !important;
+    }
+  }
+  #roleList{
+    background-color: rgba(252, 246, 225, 0.5);
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  li{
+    color: #000000
+  }
+  #carouselList{
+    background-color: rgba(252, 246, 225, 0.5);
+    font-size: 200%
+  }
+  /* .container-fluid{
+    background-color: #eb4e39;
+    box-shadow: 0 2px 2px -2px;
+  }*/
+  .navbar-inverse{
+    box-shadow: 0 2px 2px -2px
+  } 

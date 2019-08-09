@@ -1,0 +1,44 @@
+<head> <title>Portfolio - Akanksha Bhattacharyya</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/png" href="imagesaka/headshot.jpg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script></head>
+<body>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-push-2 col-sm-8 col-md-push-3 col-md-6">
+              <div class="card card-signin my-5">
+                <div class="card-body">
+                  <h5 class="card-title text-center"><img src="imagesaka\background1.png" height="20px" width="70px"><br><br>Welcome to My Webpage! Please Sign in to continue</h5>
+                  <form class="form-signin">
+                    <div class="form-label-group">
+                      <input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+                      <label for="inputEmail">Login ID</label>
+                    </div>
+      
+                    <div class="form-label-group">
+                      <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+                      <label for="inputPassword">Password</label>
+                    </div>
+      
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1">Remember password</label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block text-uppercase" id="loginButton" type="submit" onclick="location.href='sample2.html'">Sign in</button>
+                    <!-- <hr class="my-4"> -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("loginButton").onclick = function () {
+                location.href = "sample2.html";
+            };
+        </script>
+      </body>
